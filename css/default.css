@@ -1,0 +1,45 @@
+header, section, footer, aside, nav, main, article, figure {
+  display: block;
+}
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #2b390e;
+  background-color: #76C4AE;
+  background: url("../images/ascendingpath.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: auto;
+}
+
+header {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 2em;
+  text-shadow: 1px 1px 6px #76C4AE;
+}
+
+h1 {
+  text-align: center;
+}
+
+article {
+  background-color: rgba(118, 196, 174, 0.85);
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0px;
+  background-color: rgba(167,167,167, 0.85);
+  font-size: 1em;
+  text-align: center;
+  color: black;
+}
