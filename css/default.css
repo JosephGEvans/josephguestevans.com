@@ -2,6 +2,25 @@ header, section, footer, aside, nav, main, article, figure {
   display: block;
 }
 
+.article {
+  background-color: rgba(118, 196, 174, 0.85);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 35px;
+  float: left;
+  width: 31%;
+  min-width: 240px;
+}
+
+.bio {
+  background-color: rgba(118, 196, 174, 0.85);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 35px;
+  float: left;
+  width: 230px;
+}
+
 body {
   font-family: Verdana, Geneva, sans-serif;
   color: #2b390e;
@@ -11,35 +30,52 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin: auto;
 }
 
-header {
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 2em;
-  text-shadow: 1px 1px 6px #76C4AE;
+.circle {
+  border-radius: 50%;
+}
+
+.content {
+  min-height: calc(150vh - 70px);
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(167,167,167, 0.85);
+  font-size: 1em;
+  text-align: center;
+  color: black;
+  height: 50px;
 }
 
 h1 {
   text-align: center;
 }
 
-article {
-  background-color: rgba(118, 196, 174, 0.85);
-  border-radius: 20px;
-  padding: 20px;
-  max-width: 700px;
-  margin: 40px auto;
+h2 {
+  text-align: center;
 }
 
-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 0px;
-  background-color: rgba(167,167,167, 0.85);
-  font-size: 1em;
+h3 {
   text-align: center;
+}
+
+.header {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 2em;
+  text-shadow: 1px 1px 1px #76C4AE;
   color: black;
+}
+
+img {
+  opacity: 1;
+}
+
+main {
+  float: left;
+  width: 100%;
 }
